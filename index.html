@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./logo-maker-free-vector-file-download-removebg-preview.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h2 class="logo">Logo</h2>
+        <nav class="nav-bar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <i class="fa-regular fa-sun" id="toggleDark"></i>
+        </nav>
+    </header>
+ 
+ 
+    <!-- ----------------------------------- -->
+
+    <div class="main-wrapper">
+        <div class="wrapper  active-popup">
+            
+            <div class="form-box-login" login>
+                <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                    <input type="email"required>
+                    <label >Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-lock"></i>
+                    </span>
+                    <input type="password"required>
+                    <label >password</label>
+                </div>
+                <div class="forget">
+                    <label><input type="checkbox" class="rem">Remember Me</label>
+                    <a href="">Forgot Password ?</a>
+                </div>
+            <button type="submit" class="btn2">Login</button>
+            <div class="login">
+                <p>Dont have an account ?<a href="#" class="register-link">Register</a></p>
+            </div>
+        </div>
+            </form>
+    
+    
+            <div class="form-box-register" >
+                <h2>Registeration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-user"></i>                
+                    </span>
+                    <input type="text"required>
+                    <label >Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                    <input type="email"required>
+                    <label >Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-lock"></i>
+                    </span>
+                    <input type="password"required>
+                    <label >password</label>
+                </div>
+                <div class="forget">
+                    <label><input type="checkbox">I agree to the terms & conditions</label>
+                </div>
+            <button type="submit" class="btn2re">Login</button>
+            <div class="login">
+              <p>Already have an account ?<a href="#" class="login-link">Login</a></p>
+            </div>
+        </div>
+            </form>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
